@@ -1,0 +1,78 @@
+.album_photo {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.album {
+	width: 960px;
+	height: auto;
+	margin: 10px auto;
+}
+
+.portfolio_block {
+	height: auto;
+	width: 20%;
+	margin-left: 1.25%;
+	margin-top: 1.25%;
+	display: inline-block;
+}
+
+#portfolio {
+	width: 90%;
+}
+
+#photo_load {
+	width: 80px;
+	margin: 10px auto;
+	display: block;
+	margin-top: 30px;
+}
+
+#slash_1, #slash_2 {
+	background-color: #ccc;
+	position: absolute;
+	left: 50%;
+	transform: rotate(45deg);
+}
+
+#slash_1 {
+	width: 20px;
+	height: 2px;
+	margin-left: -10px;
+	top: 9px;
+}
+
+#slash_2 {
+	width: 2px;
+	height: 20px;
+	margin-left: -1px;
+}
+
+#mom_slash {
+	width: 20px;
+	height: 20px;
+	margin: 30px auto;
+	position: relative;
+	cursor: pointer;
+}
+
+#mom_slash:hover #slash_2, #mom_slash:hover #slash_1 {
+	background-color: #eee;
+}
+
+.changingText {
+	margin-top: 25px;
+}
+
+h1 {
+	width: 100%;
+	font-size: 200%;
+	display: block;
+}
+
+.port_brick img {
+	width: 250px;
+	height: 215px;
+}

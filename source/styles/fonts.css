@@ -1,0 +1,15 @@
+b,h1,h2,h3,h4,h5, button {
+	font-family: 'Open Sans', sans-serif;
+	font-variant: normal;
+	font-style: normal;
+	color: #414042;
+}
+a,p, {
+	font-family: 'Open Sans', sans-serif;
+	font-variant: normal;
+	font-style: thin;
+}
+i {
+	font-size: 8px;
+	font-family: 'Open Sans', sans-serif;
+}

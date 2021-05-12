@@ -1,0 +1,110 @@
+/*Отзывы */
+.review {
+	background-color: #414042;
+	border-top: 1px #414042 solid;
+	border-bottom: 1px #414042 solid;
+}
+
+.review_block {
+	width: 60%;
+	max-width: 1240px;
+	margin: 60px auto 60px auto;
+	border-radius: 15px;
+	border: 1px #fff solid;
+	position: relative;
+}
+
+.review_content {
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	display: none;
+	position: relative;
+	top: 0;
+	left: 5%;
+}
+
+.review_content img {
+	margin: 30px 20px 30px 30px;
+	height: 200px;
+	width: 200px;
+	border-radius: 110px;
+	border: 5px #fff solid;
+	float: left;
+}
+
+.review_content h3 {
+	color: #fff;
+	width: 100%;
+	margin: 60px 0 20px 20px;
+}
+
+.review_content p {
+	color: #fff;
+	margin: 0 70px 20px 20px;
+}
+
+.next, .prev {
+	width: 20px;
+	height: 20px;
+	background-color: rgba(0,0,0,0);
+	border-bottom: 4px #fff solid;
+	border-left: 4px #fff solid;
+	transform: rotate(45deg);
+	z-index: 3;
+	margin: 15px auto;
+}
+.next{
+	border-bottom: none;
+	border-left: none;
+	border-top: 4px #fff solid;
+	border-right: 4px #fff solid;
+}
+.block_next, .block_prev {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	position: absolute;
+	top: 41%;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.block_next {
+	right: 5px;
+}
+
+.block_prev {
+	left: 5px;
+}
+
+.block_next:hover, .block_prev:hover {
+	background-color: #fff;
+}
+
+.block_next:hover .next {
+	border-top: 4px #414042 solid;
+	border-right: 4px #414042 solid;
+}
+
+.block_prev:hover .prev{
+	border-bottom: 4px #414042 solid;
+	border-left: 4px #414042 solid;
+}
+
+.review_block:hover .give_review {
+	opacity: .5;
+}
+
+.give_review {
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	color: #fff;
+	opacity: .2;
+	z-index: 1;
+	cursor: pointer;
+}
+.give_review:hover {
+	opacity: .9;
+}

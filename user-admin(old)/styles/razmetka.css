@@ -1,0 +1,78 @@
+/*Admin WED */
+h2 {
+	height: 5vh;
+	color: white;
+	border-right: 1px black solid;
+	border-left: 1px black solid;
+	margin: 0;
+}
+
+.row {
+	float: left;
+	width: 30%;
+	background-color: gray;
+}
+
+.view {
+	width: 100%;
+	height: 55vh;
+	background-color: yellow;
+	overflow: auto;
+	border-right: 1px black solid;
+	border-left: 1px black solid;
+}
+
+.upload {
+	width: 100%;
+	height: 35vh;
+	background-color: green;
+	overflow: auto;
+	border-right: 1px black solid;
+	border-left: 1px black solid;
+}
+
+.image {
+	width: 180px;
+	height: 156px;
+	margin: 5px;
+	border: 2px #ccc solid;
+	display: inline-block;
+}
+
+.slash_1, .slash_2 {
+	background-color: #000;
+	position: absolute;
+	left: 50%;
+	transform: rotate(45deg);
+}
+
+.slash_1 {
+	width: 20px;
+	height: 2px;
+	margin-left: -10px;
+	top: 9px;
+}
+
+.slash_2 {
+	width: 2px;
+	height: 20px;
+	margin-left: -1px;
+}
+
+.mom_slash {
+	width: 20px;
+	height: 20px;
+	right: 10px;
+	top: 10px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.mom_slash:hover .slash_2, .mom_slash:hover .slash_1 {
+	background-color: #ccc;
+}
+
+.img_package {
+	position: relative;
+	display: inline-block;
+}

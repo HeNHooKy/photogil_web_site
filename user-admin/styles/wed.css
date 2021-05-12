@@ -1,0 +1,122 @@
+section {
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 80%;
+	display: block;
+	margin: 0;
+}
+
+.upload_form {
+	padding-left: 40px;
+	background-color: #eceded;
+	padding-bottom: 20px;
+}
+
+.upload_form input[type='file'] {
+	margin-top: 20px;
+}
+
+button {
+	margin: 0;
+	margin-bottom: 3px;
+}
+
+.image {
+	width: 180px;
+	height: 156px;
+	margin: 5px;
+	border: 2px #ccc solid;
+	display: inline-block;
+}
+
+.slash_1, .slash_2 {
+	background-color: #000;
+	position: absolute;
+	left: 50%;
+	transform: rotate(45deg);
+}
+
+.slash_1 {
+	width: 20px;
+	height: 2px;
+	margin-left: -10px;
+	top: 9px;
+}
+
+.slash_2 {
+	width: 2px;
+	height: 20px;
+	margin-left: -1px;
+}
+
+.mom_slash {
+	width: 20px;
+	height: 20px;
+	right: 10px;
+	top: 10px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.mom_slash:hover .slash_2, .mom_slash:hover .slash_1 {
+	background-color: #ccc;
+}
+
+.img_package {
+	position: relative;
+	display: inline-block;
+}
+
+.album_update_form {
+	background-color: #eceded;
+	padding-left: 40px;
+	overflow: none;
+	height: 0;
+	display: none;
+}
+
+.album_update_form input {
+	display: block;
+	width: 300px;
+	border: none;
+	margin-bottom: 5px;
+}
+
+.album_update_form textarea {
+	width: 80%;
+	height: 60px;
+	display: block;
+	border: none;
+	margin-bottom: 7px; 
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+.slider {
+	display: block;
+	padding-left: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 40px;
+	background-color: #eceded;
+}
+
+a:hover {
+	color: blue;
+}
+
+#delete_forever_____ {
+	float: right;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+#delete_forever_____:hover {
+	color: blue;
+}
+

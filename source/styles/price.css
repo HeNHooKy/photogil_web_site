@@ -1,0 +1,117 @@
+.package {
+	width: 230px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.price_block {
+	background-color: #414042;
+	display: block;
+	width: 100%;
+	border: 1px #414042 solid;
+}
+
+.first_package {
+	background-color: #58595B;
+	margin-left: 0;
+}
+
+.second_package {
+	background-color: #808080;
+}
+
+.third_package {
+	background-color: #F6AB40; 
+}
+
+.third_package h2 {
+	margin-bottom: 50px;
+}
+
+.last_package {
+	background-color: #58595B;
+}
+
+.last_package h2 {
+	margin-bottom: 100px;
+}
+
+li {
+	color: #fff;
+	margin-top: 10px;
+}
+
+.second_package li{
+	color: #F6AB40;
+}
+
+.second_package li span{
+	color: #fff;
+}
+
+h2 {
+	background-color: inherit;
+	clear: none;
+	text-align: left;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+h3 {
+	text-align: right;
+	margin-right: 30px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.аlignment {
+	width: 1030px;
+	margin: 50px auto 100px auto;
+	display: block;
+}
+
+.аlignment button {
+	display: block;
+	float: right;
+	padding: 5px;
+	margin-right: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.pharagraph {
+	width: 1030px;
+	margin: 70px auto 0 auto;
+}
+
+p {
+	font-style: regular;
+	color: #000;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.social_service {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.package input {
+	text-align: right;
+	color: #eee;
+}
+
+.pharagraph input, .package input {
+	margin-bottom: 0;
+	border: none;
+	color: #000;
+	background-color: inherit;
+	margin-top: 20px;
+}
+
+#message {
+	height: 150px;
+	padding: 20px;
+}

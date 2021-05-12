@@ -1,0 +1,47 @@
+/*Admin PANEL */
+.adminPanelPage {
+	height: 95vh;
+	width: 90%;
+	overflow: auto;
+}
+
+#review_block {
+	width: 90%;
+}
+
+#review_block i {
+	color: #eee;
+}
+
+.delete_review {
+	background-color: #DE1414;
+	color: #000;
+	font-style: normal;
+	font-size: 22px;
+	height: 60px;
+	width: 150px;
+	border-radius: 10px;
+	border: 2px black solid;
+	cursor: pointer;
+}
+
+.complite_review {
+	background-color: #1BD53D;
+	color: #000;
+	font-style: normal;
+	font-size: 22px;
+	height: 60px;
+	width: 150px;
+	border-radius: 10px;
+	border: 2px black solid;
+	cursor: pointer;
+}
+
+.control_package {
+	margin: 0 auto;
+	width: 304px;
+}
+
+.review_content {
+	height: inherit;
+}

@@ -1,0 +1,176 @@
+body {
+	margin: 0;
+}
+
+header {
+	color: #fff;
+	width: 96%;
+	padding: 20px 2%;
+	display: block;
+	text-align: left;
+	background-color: #414042;
+	margin: 0;
+}
+h1 {
+	color: #fff;
+	width: 96%;
+	display: block;
+	text-align: left;
+	background-color: inherit;
+	margin: 0;
+}
+
+h2 {
+	color: #fff;
+	width: 96%;
+	padding: 20px 2%;
+	display: block;
+	text-align: left;
+	background-color: #414042;
+	margin: 0;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+section {
+	margin: 0 1%;
+	float: left;
+	width: 48%;
+	display: inline-block;
+}
+
+article {
+	margin: 0 1%;
+	width: 98%;
+	clear: both;
+}
+
+textarea {
+	width: 50%;
+	height: 150px;
+	resize: none;
+	margin-left: 10px;
+	border: 2px solid #000;
+}
+
+input {
+	margin-left: 10px;
+	border: 2px solid #000;
+}
+
+label {
+	color: #000;
+}
+
+.textarea_label {
+	float: left;
+}
+
+form div {
+	margin-top: 10px;
+}
+
+form input[type="file"] {
+	display: block;
+	margin-bottom: 10px;
+	border: none;
+}
+
+button {
+	border-radius: 10vh;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 4px 15px;
+	border: none;
+	background-color: #f6921e;
+	color: white;
+	cursor: pointer;
+}
+
+#change_contacts button {
+	margin-left: 0;
+}
+
+.portfolio_block {
+	width: 200px;
+	height: 200px;
+}
+
+.portfolio_block:first-child {
+	margin-left: 1%;
+}
+
+.review {
+	width: 100%;
+	margin: 0;
+}
+
+.delete_review {
+	background-color: #EA4136;
+}
+
+.control_package {
+
+	margin: 10px auto 60px auto;
+	width: 400px;
+}
+
+.album_portfolio {
+	max-height: 900px;
+	overflow: auto;
+}
+
+strong {
+	color: #fff;
+}
+
+#slash_1, #slash_2 {
+	background-color: #ccc;
+	position: absolute;
+	left: 50%;
+	transform: rotate(45deg);
+}
+
+#slash_1 {
+	width: 20px;
+	height: 2px;
+	margin-left: -10px;
+	top: 9px;
+}
+
+#slash_2 {
+	width: 2px;
+	height: 20px;
+	margin-left: -1px;
+}
+
+#mom_slash {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	cursor: pointer;
+}
+
+#mom_slash:hover #slash_2, #mom_slash:hover #slash_1 {
+	background-color: #eee;
+}
+
+#delete_review_filtered {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	height: 20px;
+	width: 20px;
+	margin: 0;
+	background-color: inherit;
+}
+
+header a {
+	display: block;
+}
+
+header a:hover {
+	color: #f6921e;
+}
